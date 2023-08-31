@@ -472,7 +472,15 @@ NAVBAR
   padding-bottom: 15px;
 }
 
+.title {
+  color: white;
+}
+
 .navbar-b.navbar-reduce .nav-link {
+  color: #0078ff;
+}
+
+.navbar-b.navbar-reduce .title {
   color: #0078ff;
 }
 

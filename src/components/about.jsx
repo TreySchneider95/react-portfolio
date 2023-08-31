@@ -6,15 +6,30 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+        { 
+          id: "HTML5_skill",
+          content: "HTML5",
+          porcentage: "80%",
+          value: "80" 
+        },
+        { 
+          id: "CSS3_skill",
+          content: "CSS3",
+          porcentage: "75%",
+          value: "75" 
+        },
         {
           id: "JavaScript_skill",
           content: "JavaScript",
-          porcentage: "90%",
-          value: "90"
+          porcentage: "95%",
+          value: "95"
         },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
+        { 
+          id: "Express_skill",
+          content: "Express",
+          porcentage: "80%",
+          value: "80" 
+        },
         {
           id: "ReactJS_skill",
           content: "ReactJS",
@@ -24,21 +39,39 @@ class About extends React.Component {
         {
           id: "Python_skill",
           content: "Python",
-          porcentage: "75%",
-          value: "75"
+          porcentage: "95%",
+          value: "95"
         },
         {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
+          id: "Django_skill",
+          content: "Django",
           porcentage: "85%",
           value: "85"
         },
         {
-          id: "Wordpress_skill",
-          content: "Wordpress",
-          porcentage: "80%",
-          value: "80"
-        }
+          id: "Flask_skill",
+          content: "Flask",
+          porcentage: "75%",
+          value: "75"
+        },
+        {
+          id: "AWS_skill",
+          content: "AWS",
+          porcentage: "70%",
+          value: "70"
+        },
+        {
+          id: "SQL_skill",
+          content: "SQL",
+          porcentage: "60%",
+          value: "60"
+        },
+        {
+          id: "NoSQL_skill",
+          content: "NoSQL",
+          porcentage: "60%",
+          value: "60"
+        },
       ],
       about_me: [
         {
